@@ -71,7 +71,7 @@ public class TestAutoVuForia extends LinearOpMode {
 
     public static final String TAG = "Vuforia VuMark Sample";
 
-    MecanumDrive drive;
+    //MecanumDrive drive;
 
     OpenGLMatrix lastLocation = null;
 
@@ -83,7 +83,7 @@ public class TestAutoVuForia extends LinearOpMode {
 
     @Override public void runOpMode() {
 
-        drive = new MecanumDrive(hardwareMap);
+        //drive = new MecanumDrive(hardwareMap);
         /*
          * To start up Vuforia, tell it the view that we wish to use for camera monitor (on the RC phone);
          * If no camera monitor is desired, use the parameterless constructor instead (commented out below).
@@ -176,7 +176,7 @@ public class TestAutoVuForia extends LinearOpMode {
                     }*/
                     if(rZ < 0)
                     {
-                        drive.mecMove(tY, 0.5, 0);
+                        //drive.mecMove(tY, 0.5, 0);
                     }
                 }
             }
